@@ -1,28 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fisica y simulación</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-</head>
-<body>
+<body class="bg-dark text-light font-monospace">
 
-   <div class="container-fluid">
-    <h1>PORTFOLIO DANIEL JAUREGUI</h1>
+    <!-- Encabezado / Hero Section -->
+    <header class="container my-5 py-4 border-bottom border-secondary">
+        <div class="row">
+            <div class="col-12">
+                <h1 class="display-4 fw-bold text-uppercase tracking-wider text-info">PORTFOLIO DANIEL JAUREGUI</h1>
+                <p class="text-muted col-md-8">
+                    Modelado 3D, animación y desarrollo técnico orientado a entornos interactivos y cinemáticas.
+                </p>
+            </div>
+        </div>
+    </header>
 
-    <h2>Halo: Campaign Evolved | New Missions Trailer | Operation: Meteorite </h2>
-<section>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/G4sUx2nX5EQ?si=pck546NDbssP5C8A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</section>
+    <!-- Galería de Proyectos (Grid) -->
+    <main class="container my-5">
+        <h2 class="h4 text-secondary text-uppercase mb-4">// Proyectos Destacados</h2>
+        
+        <div class="row g-4">
+            <!-- Proyecto 1 -->
+            <div class="col-12 col-lg-6">
+                <div class="card bg-secondary bg-opacity-10 border-secondary h-100 lang-box">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/G4sUx2nX5EQ?si=pck546NDbssP5C8A" title="YouTube video player" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="h5 card-title text-info">Halo: Campaign Evolved | New Missions Trailer</h3>
+                        <p class="card-text small text-muted">Operation: Meteorite. Desglose técnico de físicas, iluminación y diseño de entorno.</p>
+                    </div>
+                </div>
+            </div>
 
-    <h2>Halo: Campaign Evolved | Cinematic Story Trailer</h2>
-<section>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/0MxBFXH2a_U?si=I-kGAiTIF0z7G0SV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</section>
- 
-   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
- 
- </div>
+            <!-- Proyecto 2 -->
+            <div class="col-12 col-lg-6">
+                <div class="card bg-secondary bg-opacity-10 border-secondary h-100 lang-box">
+                    <div class="ratio ratio-16x9">
+                        <iframe src="https://www.youtube.com/embed/0MxBFXH2a_U?si=I-kGAiTIF0z7G0SV" title="YouTube video player" allowfullscreen></iframe>
+                    </div>
+                    <div class="card-body">
+                        <h3 class="h5 card-title text-info">Halo: Campaign Evolved | Cinematic Story Trailer</h3>
+                        <p class="card-text small text-muted">Trabajo de cámara, composición de escenas y sincronización de audio para narrativa cinemática.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container my-5 pt-4 border-top border-secondary text-center text-muted small">
+        <p>&copy; 2026 Daniel Jáuregui. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Bootstrap Bundle JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-sha384-FkyoeFORCGlyvwx9Hj09jcy3nv7yiWv1z7YyWv1z7YyWvCxF/BmnVDxM+D2scQI1tXi" crossorigin="crossorigin"></script>
 </body>
-</html>
